@@ -7,8 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatTableModule} from '@angular/material/table';
+import {MatTabsModule} from '@angular/material/tabs';
 import { CustomerComponent } from './customer/customer.component';
-import { CustomerService } from './service/customer.service'
+import { CustomerService } from './service/customer.service';
+import {MatCardModule} from '@angular/material/card';
+import {MatIconModule} from '@angular/material/icon';
+import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -35,6 +40,11 @@ import { DatePipe } from '@angular/common';
     MatInputModule,
     FormsModule,
     ReactiveFormsModule,
+    MatTableModule,
+    MatTabsModule,
+    MatIconModule,
+    MatCardModule,
+    MatPaginatorModule,
     HttpClientModule
   ],
   providers: [
